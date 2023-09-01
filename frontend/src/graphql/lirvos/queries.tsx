@@ -1,4 +1,4 @@
-import { gql } from "@apollo/client/core";
+import { gql } from "@apollo/client";
 
 export const findAllBooks = gql`
   query findAllBooks($categoriaId: Int, $titulo: String) {
